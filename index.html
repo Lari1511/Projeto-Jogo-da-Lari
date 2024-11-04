@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Guardião das Estrelas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-inicio.png" alt="Mapa astral antigo">
+            <p>Certo dia, enquanto explorava o sótão da casa da minha avó, encontrei um antigo mapa astral que mencionava um templo escondido nas montanhas. Decidi seguir as pistas para descobrir o segredo do Guardião das Estrelas!</p>
+            <button class="btn-proximo" data-proximo="1">Começar a jornada</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o mapa e continuar a rotina</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você inicia sua jornada pelas trilhas montanhosas, enfrentando terrenos desafiadores e observando as constelações para guiar seu caminho.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir pela trilha iluminada pelas estrelas</button>
+            <button class="btn-proximo" data-proximo="4">Explorar uma caverna próxima</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Decidiu que a aventura é arriscada demais e voltou para casa, mantendo o mapa como uma lembrança do que poderia ter sido.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Seguindo a trilha iluminada pelas estrelas, você chega a um vale oculto onde encontra o Templo do Guardião das Estrelas.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar no templo</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a área ao redor primeiro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-explorando-caverna.png" alt="Explorando uma caverna misteriosa">
+            <p>Dentro da caverna, você encontra inscrições antigas que indicam que o templo está protegido por enigmas. Sem a solução correta, é impossível avançar.</p>
+            <button class="btn-proximo" data-proximo="2">Voltar e seguir a trilha iluminada</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5-templo.png" alt="Entrada do Templo do Guardião das Estrelas">
+            <p>Ao entrar no templo, você ativa o Guardião das Estrelas. Ele revela que somente alguém de coração puro pode restaurar o equilíbrio celestial.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a missão de restaurar o equilíbrio</button>
+            <button class="btn-proximo" data-proximo="8">Recusar e sair do templo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Após investigar a área, você descobre um altar secreto com um enigma que, quando resolvido, abre o caminho para o templo.</p>
+            <button class="btn-proximo" data-proximo="5">Resolver o enigma e entrar no templo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7-fim.png" alt="Restaurando o equilíbrio celestial">
+            <p>Com a missão cumprida, as estrelas brilham intensamente no céu, e o equilíbrio celestial é restaurado. Você se torna o novo Guardião das Estrelas, protegendo o universo das forças do mal.</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decidiu não aceitar a missão e deixou o templo. Embora a paz celestial tenha sido mantida por agora, o equilíbrio permanece frágil.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
